@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+  lazy_judge:
+    container_name: main
+    build: .
+    ports:
+     - "2222:2222"
